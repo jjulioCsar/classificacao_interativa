@@ -1,0 +1,37 @@
+.btn-box {
+    display: flex;
+    align-items: center;
+    color: white;
+    background-color:hsl(216, 12%, 54%);
+    width: 40px;
+    height: 40px;
+    border: none;
+    border-radius: 100px;
+    justify-content: center;
+    font-weight: 900;
+    font-size: 14px;
+    padding: 10px;
+    margin: 10px;
+    
+}
+
+.btn-box:hover {
+
+    transition: background-color .3s ease;
+    color: white;
+    background-color: hsl(25, 97%, 53%);
+}
+
+.buttons{
+    padding-top: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+/* 
+hsl(216, 12%, 54%); 
+hsl(217, 12%, 63%); */

@@ -1,0 +1,34 @@
+.btn-submit {
+    display: flex;
+    align-items: center;
+    color: white;
+    background-color:hsl(25, 97%, 53%);
+    width: 280px;
+    height: 40px;
+    border: none;
+    border-radius: 100px;
+    justify-content: center;
+    font-weight: 900;
+    font-size: 14px;
+    padding-left: 50px;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+
+}
+
+.btn-submit:hover {
+    transition: background-color .3s ease;
+    color: yellow;
+    background-color: white;
+}
+
+.box-btn{
+    padding-top: 50px;
+    padding-left: 45px;
+}
+
+.p-terms{
+    padding-right: 40px;
+    color: white;
+}
